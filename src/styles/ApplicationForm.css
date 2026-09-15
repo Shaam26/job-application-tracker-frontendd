@@ -1,0 +1,91 @@
+.application-form-page {
+  width: 90%;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.application-form-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.application-form-header {
+  margin-bottom: 30px;
+}
+
+.application-form-header h1 {
+  font-size: 30px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.application-form-header p {
+  color: #6b7280;
+}
+
+.application-form-group {
+  margin-bottom: 20px;
+}
+
+.application-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.application-form-group input,
+.application-form-group select,
+.application-form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  background-color: #ffffff;
+}
+
+.application-form-group input:focus,
+.application-form-group select:focus,
+.application-form-group textarea:focus {
+  border-color: #2563eb;
+}
+
+.application-form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.application-submit-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.application-submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+  .application-form-page {
+    width: 92%;
+    margin: 25px auto;
+  }
+
+  .application-form-card {
+    padding: 25px 20px;
+  }
+
+  .application-form-header h1 {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,238 @@
+.applications-page {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.applications-header {
+  margin-bottom: 25px;
+}
+
+.applications-header h1 {
+  font-size: 32px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.applications-header p {
+  color: #6b7280;
+}
+
+/* Top controls */
+
+.application-controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.application-search {
+  flex: 1;
+  min-width: 250px;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.application-search:focus {
+  border-color: #2563eb;
+}
+
+.application-filter {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: white;
+  outline: none;
+}
+
+.application-filter:focus {
+  border-color: #2563eb;
+}
+
+/* Add button */
+
+.add-application-button {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 11px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.add-application-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Application cards */
+
+.applications-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.application-card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.application-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.application-card h2 {
+  color: #111827;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.application-info {
+  margin-bottom: 10px;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.application-info strong {
+  color: #374151;
+}
+
+/* Status */
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.status-applied {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status-interview {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-rejected {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.status-selected {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+/* Buttons */
+
+.application-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.edit-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.edit-button:hover {
+  background-color: #1d4ed8;
+}
+
+.delete-button {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+}
+
+/* Empty message */
+
+.no-applications {
+  text-align: center;
+  padding: 50px 30px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  color: #6b7280;
+}
+
+.no-applications h2 {
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.no-applications p {
+  margin-bottom: 25px;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+  .applications-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .applications-page {
+    width: 92%;
+  }
+
+  .application-controls {
+    flex-direction: column;
+  }
+
+  .application-search {
+    width: 100%;
+  }
+
+  .application-filter {
+    width: 100%;
+  }
+}
+.job-link {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.job-link:hover {
+  text-decoration: underline;
+}
