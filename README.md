@@ -58,8 +58,8 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
-
-## Prerequisites
+**
+## Prerequisites**
 
 Make sure you have the following installed:
 
@@ -68,8 +68,8 @@ npm
 Git
 
 The backend Spring Boot application should also be running for the frontend API features to work.
-
-## Installation
+**
+## Installation**
 1. Clone the repository
 git clone YOUR_GITHUB_REPOSITORY_URL
 2. Navigate to the project directory
@@ -81,7 +81,7 @@ npm run dev
 
 The application will start using the Vite development server.
 
-## Backend API
+**## Backend API**
 
 The frontend communicates with the Spring Boot backend through REST APIs.
 
