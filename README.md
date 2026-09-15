@@ -58,8 +58,8 @@ src/
 ├── App.jsx
 ├── index.css
 └── main.jsx
-Getting Started
-Prerequisites
+
+## Prerequisites
 
 Make sure you have the following installed:
 
@@ -69,7 +69,7 @@ Git
 
 The backend Spring Boot application should also be running for the frontend API features to work.
 
-Installation
+## Installation
 1. Clone the repository
 git clone YOUR_GITHUB_REPOSITORY_URL
 2. Navigate to the project directory
@@ -81,7 +81,7 @@ npm run dev
 
 The application will start using the Vite development server.
 
-Backend API
+## Backend API
 
 The frontend communicates with the Spring Boot backend through REST APIs.
 
@@ -89,7 +89,7 @@ During local development, the backend runs at:
 
 http://localhost:8080
 
-The frontend uses the following API operations:
+## The frontend uses the following API operations:
 
 POST   /users/register
 POST   /users/login
@@ -105,7 +105,7 @@ Authentication
 
 The application uses JWT authentication.
 
-After a successful login:
+## After a successful login:
 
 The backend generates a JWT token.
 The frontend stores the token in local storage.
@@ -114,13 +114,13 @@ Protected routes are accessible only when a token is available.
 Logging out removes the token from local storage.
 Search and Filtering
 
-The Applications page supports:
+## The Applications page supports:
 
 Searching by company name
 Searching by job role
 Filtering by application status
 
-Available statuses:
+## Available statuses:
 
 Applied
 Interview
@@ -130,7 +130,7 @@ Error Handling
 
 The frontend displays backend error messages when API requests fail.
 
-Examples include:
+## Examples include:
 
 Invalid login credentials
 Duplicate email
@@ -139,7 +139,7 @@ Invalid application data
 Failed API requests
 Responsive Design
 
-The application is designed to work across:
+## The application is designed to work across:
 
 Desktop
 Tablet
@@ -147,17 +147,17 @@ Mobile devices
 
 Responsive layouts are implemented using CSS media queries.
 
-Backend Repository
+## Backend Repository
 
 The frontend is designed to work with a separate Spring Boot backend.
 
-Backend repository:
+ Backend repository:
 
 YOUR_BACKEND_GITHUB_REPOSITORY_URL
 
 The backend provides authentication, job application management, JWT security, validation, dashboard statistics, and PostgreSQL database integration.
 
-Future Improvements
+## Future Improvements
 
 Possible future enhancements include:
 
@@ -171,6 +171,7 @@ Better loading indicators
 Dark mode
 Production deployment
 Custom domain
-Author
+
+## Author
 Shameem Banu
 
